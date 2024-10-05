@@ -1,6 +1,6 @@
 import streamlit as st
-import numpy as np
-from sklearn.ensamble import RandomForestClassifier
+
+
 
 
 
@@ -9,6 +9,10 @@ st.title('😘😘😘🎈 My first app FaraJKH')
 st.write('Hello world!')
 
 import pandas as pd
+from sklearn.ensamble import RandomForestClassifier
+import numpy as np
+
+
 with st.expander('Initial data'):
   df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
   st.write('**X**')
