@@ -9,7 +9,7 @@ st.title('😘😘😘🎈 My first app FaraJKH')
 st.write('Hello world!')
 
 import pandas as pd
-from sklearn.ensamble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 
 
